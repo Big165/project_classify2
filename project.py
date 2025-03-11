@@ -77,7 +77,7 @@ if st.button("ทำนายผล"):
 
    if out[0] == 'Setosa':
     st.image("./img/one.jpg")
-   elif     
+   elif out[0] == 'Setosa':
     st.image("./img/two.jpg")
  
 else:
