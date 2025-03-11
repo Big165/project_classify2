@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("คูณเป็นโรคหัวใจรึเปล่า")
 
-st.image('./img/3.jpg')
+st.image('./img/three.jpg')
 st.subheader("Kairung Hengpraprohm")
 
 dt=pd.read_csv('./data/heart.csv')
