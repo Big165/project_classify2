@@ -1,7 +1,8 @@
+from sklearn.neighbors import KNeighborsClassifier
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.neighbors import KNeighborsClassifier
+
 
 st.title("คูณเป็นโรคหัวใจรึเปล่า")
 
