@@ -6,7 +6,7 @@ st.title("คูณเป็นโรคหัวใจรึเปล่า")
 st.image('./img/3.jpg')
 st.subheader("Kairung Hengpraprohm")
 
-dt=pd.read_csv('./data/iris-3.csv')
+dt=pd.read_csv('./data/heart.xlsx')
 st.header("ข้อมูลโรคหัวใจ")
 st.write(dt.head(10))
 
