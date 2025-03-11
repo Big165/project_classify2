@@ -64,7 +64,7 @@ A11 = st.number_input("ข้อมูล 11")
 
 if st.button("ทำนายผล"):
     #st.write("ทำนาย")
-   dt = pd.read_csv("./data/iris-3.csv") 
+   dt = pd.read_csv("./data/heart.csv") 
    X = dt.drop('HeartDisease', axis=1)
    y = dt.variety   
 
@@ -76,9 +76,9 @@ if st.button("ทำนายผล"):
    
    out=Knn_model.predict(x_input)
 
-   if out[0] == 'Setosa':
+   if out[0] == 1:
     st.image("./img/one.jpg")
-   elif 
+   elif out[0] == 'Setosa':
     st.image("./img/two.jpg")
  
 else:
